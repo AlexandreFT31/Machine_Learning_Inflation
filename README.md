@@ -4,7 +4,7 @@
 
 This README file is intended to help anyone interested in running the code developed for inflation forecasting. The project provides deep learning models and benchmarks to forecast inflation using a wide array of macroeconomic variables. The purpose is to test whether deep learning is more effective in modeling inflation, which is far from trivial, as the pertaining literature shows. To achieve this objective, LSTM-based models, in particular ConvLSTM networks, together with autoencoders, were implemented. In comparison to the performance provide by popular benchmarks, the results obtained are encouraging. 
 
-Initially, it should be noted there are two notebooks with different purposes. The first one, called "Inflation_Data", is responsible for preparing the raw input data. Essentially, this notebook receives the macroeconomic time series and run the necessary data manipulation routines. The autoenconders and VAEs are implemented here as well. The outputs are used in the second notebook, called "Inflation_Forecasting", which adjusts every model using the outputs of the first notebook. This notebook also compile the forecasts yielded by each model and provide them as output for the user along with performance metrics.
+Initially, it should be noted there are two notebooks with different purposes. The first one, called "Inflation_Data", is responsible for preparing the raw input data. Essentially, this notebook receives the macroeconomic time series and run the necessary data manipulation routines. The autoenconders and VAEs are implemented here as well. The outputs are used in the second notebook, called "Inflation_Forecasting", which adjusts every model using the outputs of the first notebook. This notebook also compiles the forecasts yielded by each model and provides them as output for the user along with performance metrics.
 
 --- Directories
 
@@ -93,5 +93,4 @@ This notebook presents the code to implement the deep learning models and severa
 3) Adjust the model to the data;
 5) Evaluate the out-of-sample performance of each model using common metrics, such as MSE;
 6) Save the results in .csv files.
-
 
