@@ -55,13 +55,22 @@ Before running the notebooks, the user must install the following Python librari
 16) pydot
 17) warnings
 
+--- Input Data
+
+The main input data to start running the code are comprised by the macroeconomic time series compiled by Michael W. McCracken, which can be freely accessed through his webpage located at https://research.stlouisfed.org/econ/mccracken/fred-databases/. The other input is the table containing the description of the data and the transformations through which the macroeconomic time series are submitted, following McCracken and Ng (2016). We have added the corresponding .csv file to ease the process for new users interested in our project. When running the code, the user just needs to save this .csv file in a folder of his choice and point the code to it using the string variables created (please refer to the section "Directories" above).
+
 --- Notebook "Inflation_Data"
 
+This notebook contains routines for data preparation, normalization, and denoising. Additionally, before adjusting the models implemented in the second notebook, we run PCA, autoenconders, and VAEs to encode the input data. Overall, the code present in this notebook does the following:
 
+1) Read the macroeconomic time series provided by FRED and compiled by Michael W. McCracken;
+2) The time series are transformed according to the suggestions proposed by McCracken and Ng (2016). These transformations involve computing log values and differencing, for instance;
+3) In the sequence, time series are normalized, split in different samples (training and testing), and attributed to different variables;
+4) After preparing the data, we run PCA and derive principal components. In parallel, using the original transformed data, we also encode the variables using autoenconders and VAEs. Note that these techniques are used for variables grouped according to their nature (employment, income, etc.), which is more appropriate than applying the techniques just once for the entire database and mixing variables of different natures;
+5) The outputs of the PCA, autoencoders, and VAEs are separated and saved in individual .csv files, which are used in the next notebook.
 
 --- Notebook "Inflation_Forecasting"
 
 
---- Input Data
 
-The main input data to start running the code are comprised by the macroeconomic time series compiled by Michael W. McCracken, which can be freely accessed through his webpage located at https://research.stlouisfed.org/econ/mccracken/fred-databases/. The other input is the table containing the description of the data and the transformations through which the macroeconomic time series are submitted, following McCracken and Ng (2016). We have added the corresponding .csv file to ease the process for new users interested in our project. When running the code, the user just needs to save this .csv file in a folder of his choice and point the code to it using the string variables created (please refer to the section "Directories" above).
+
