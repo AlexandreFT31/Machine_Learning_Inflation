@@ -1,0 +1,136 @@
+﻿Index;Group;ID;Transformation;FRED;Description;Frequency
+1;Output and Income;1;First difference of log;RPI;Real Personal Income;Monthly
+2;Output and Income;2;First difference of log;W875RX1;Real Personal Income ex Transfer Receipts;Monthly
+3;Output and Income;6;First difference of log;INDPRO;IP Index;Monthly
+4;Output and Income;7;First difference of log;IPFPNSS;IP - Final Products and Nonindustrial Supplies;Monthly
+5;Output and Income;8;First difference of log;IPFINAL;IP - Final Products (Market Group);Monthly
+6;Output and Income;9;First difference of log;IPCONGD;IP - Consumer Goods;Monthly
+7;Output and Income;10;First difference of log;IPDCONGD;IP - Durable Goods;Monthly
+8;Output and Income;11;First difference of log;IPNCONGD;IP - Nondurable Consumer Goods;Monthly
+9;Output and Income;12;First difference of log;IPBUSEQ;IP - Business Equipment;Monthly
+10;Output and Income;13;First difference of log;IPMAT;IP - Materials;Monthly
+11;Output and Income;14;First difference of log;IPDMAT;IP - Durable Materials;Monthly
+12;Output and Income;15;First difference of log;IPNMAT;IP - Nondurable Materials;Monthly
+13;Output and Income;16;First difference of log;IPMANSICS;IP - Manufacturing (ISC);Monthly
+14;Output and Income;17;First difference of log;IPB51222s;IP - Residential Utilities;Monthly
+15;Output and Income;18;First difference of log;IPFUELS;IP - Fuels;Monthly
+16;Output and Income;19;No transformation;NAPMPI;ISM Manufacturing - Production Index;Monthly
+17;Output and Income;20;First difference;CUMFNS;Capacity Utilization - Manufacturing;Monthly
+18;Labor Market;21;First difference;HWI;Help-Wanted Index for United States;Monthly
+19;Labor Market;22;First difference;HWIURATIO;Ratio of Help Wanted / No. Unemployed;Monthly
+20;Labor Market;23;First difference of log;CLF16OV;Civilian Labor Force;Monthly
+21;Labor Market;24;First difference of log;CE16OV;Civilian Employment;Monthly
+22;Labor Market;25;First difference;UNRATE;Civilian Unemployment Rate;Monthly
+23;Labor Market;26;First difference;UEMPMEAN;Average Duration of Unemployment (Weeks);Monthly
+24;Labor Market;27;First difference of log;UEMPLT5;Civilians Unemployed - Less Than 5 Weeks;Monthly
+25;Labor Market;28;First difference of log;UEMP5TO14;Civilians Unemployed for 5-14 Weeks;Monthly
+26;Labor Market;29;First difference of log;UEMP15OV;Civilians Unemployed for 15 Weeks and Over;Monthly
+27;Labor Market;30;First difference of log;UEMP15T26;Civilians Unemployed for 15-26 Weeks;Monthly
+28;Labor Market;31;First difference of log;UEMP27OV;Civilians Unemployed for 27 Weeks and Over;Monthly
+29;Labor Market;32;First difference of log;CLAIMSx;Initial Claims;Monthly
+30;Labor Market;33;First difference of log;PAYEMS;All Employees: Total nonfarm;Monthly
+31;Labor Market;34;First difference of log;USGOOD;All Employees: Goods-Producing Industries;Monthly
+32;Labor Market;35;First difference of log;CES1021000001;All Employees: Mining and Logging: Mining;Monthly
+33;Labor Market;36;First difference of log;USCONS;All Employees: Construction;Monthly
+34;Labor Market;37;First difference of log;MANEMP;All Employees: Manufacturing;Monthly
+35;Labor Market;38;First difference of log;DMANEMP;All Employees: Durable goods;Monthly
+36;Labor Market;39;First difference of log;NDMANEMP;All Employees: Nondurable goods;Monthly
+37;Labor Market;40;First difference of log;SRVPRD;All Employees: Service-Providing Industries;Monthly
+38;Labor Market;41;First difference of log;USTPU;All Employees: Trade, Transportation & Utilities;Monthly
+39;Labor Market;42;First difference of log;USWTRADE;All Employees: Wholesale Trade;Monthly
+40;Labor Market;43;First difference of log;USTRADE;All Employees: Retail Trade;Monthly
+41;Labor Market;44;First difference of log;USFIRE;All Employees: Financial Activities;Monthly
+42;Labor Market;45;First difference of log;USGOVT;All Employees: Government;Monthly
+43;Labor Market;46;No transformation;CES0600000007;Avg Weekly Hours: Goods-Producing;Monthly
+44;Labor Market;47;First difference;AWOTMAN;Avg Weekly Overtime Hours: Manufacturing;Monthly
+45;Labor Market;48;No transformation;AWHMAN;Avg Weekly Hours: Manufacturing;Monthly
+46;Labor Market;49;No transformation;NAPMEI;ISM Manufacturing: Employment Index;Monthly
+47;Labor Market;127;Second difference of log;CES0600000008;Avg Hourly Earnings: Goods-Producing;Monthly
+48;Labor Market;128;Second difference of log;CES2000000008;Avg Hourly Earnings: Construction;Monthly
+49;Labor Market;129;Second difference of log;CES3000000008;Avg Hourly Earnings: Manufacturing;Monthly
+50;Housing;50;Log;HOUST;Housing Starts: Total New Privately Owned;Monthly
+51;Housing;51;Log;HOUSTNE;Housing Starts, Northeast;Monthly
+52;Housing;52;Log;HOUSTMW;Housing Starts, Midwest;Monthly
+53;Housing;53;Log;HOUSTS;Housing Starts, South;Monthly
+54;Housing;54;Log;HOUSTW;Housing Starts, West;Monthly
+55;Housing;55;Log;PERMIT;New Private Housing Permits (SAAR);Monthly
+56;Housing;56;Log;PERMITNE;New Private Housing Permits, Northeast (SAAR);Monthly
+57;Housing;57;Log;PERMITMW;New Private Housing Permits, Midwest (SAAR);Monthly
+58;Housing;58;Log;PERMITS;New Private Housing Permits, South (SAAR);Monthly
+59;Housing;59;Log;PERMITW;New Private Housing Permits, West (SAAR);Monthly
+60;Consumption, Orders and Inventories;3;First difference of log;DPCERA3M086SBEA;Real personal consumption expenditures;Monthly
+61;Consumption, Orders and Inventories;4*;First difference of log;CMRMTSPLx;Real Manu. and Trade Industries;Monthly
+62;Consumption, Orders and Inventories;5*;First difference of log;RETAILx;Retail and Food Services Sales;Monthly
+63;Consumption, Orders and Inventories;60;No transformation;NAPM;ISM : PMI Composite Index;Monthly
+64;Consumption, Orders and Inventories;61;No transformation;NAPMNOI;ISM : New Orders Index;Monthly
+65;Consumption, Orders and Inventories;62;No transformation;NAPMSDI;ISM : Supplier Deliveries Index;Monthly
+66;Consumption, Orders and Inventories;63;No transformation;NAPMII;ISM : Inventories Index;Monthly
+67;Consumption, Orders and Inventories;64;First difference of log;ACOGNO;New Orders for Consumer Goods;Monthly
+68;Consumption, Orders and Inventories;65*;First difference of log;AMDMNOx;New Orders for Durable Goods;Monthly
+69;Consumption, Orders and Inventories;66*;First difference of log;ANDENOx;New Orders for Nondefense Capital;Monthly
+70;Consumption, Orders and Inventories;67*;First difference of log;AMDMUOx;Unfilled Orders for Durable Goods;Monthly
+71;Consumption, Orders and Inventories;68*;First difference of log;BUSINVx;Total Business Inventories;Monthly
+72;Consumption, Orders and Inventories;69*;First difference;ISRATIOx;Total Business: Inventories to Sales;Monthly
+73;Consumption, Orders and Inventories;130*;First difference;UMCSENTx;Consumer Sentiment Index;Monthly
+74;Money and Credit;70;Second difference of log;M1SL;M1SL M1 Money Stock;Monthly
+75;Money and Credit;71;Second difference of log;M2SL;M2SL M2 Money Stock;Monthly
+76;Money and Credit;72;First difference of log;M2REAL;M2REAL Real M2 Money Stock;Monthly
+77;Money and Credit;73;Second difference of log;AMBSL;AMBSL St. Louis Adjusted Monetary Base;Monthly
+78;Money and Credit;74;Second difference of log;TOTRESNS;TOTRESNS Total Reserves of Depository Institutions;Monthly
+79;Money and Credit;75;First difference of (ratio - 1);NONBORRES;NONBORRES Reserves Of Depository Institutions;Monthly
+80;Money and Credit;76;Second difference of log;BUSLOANS;BUSLOANS Commercial and Industrial Loans;Monthly
+81;Money and Credit;77;Second difference of log;REALLN;REALLN Real Estate Loans at All Commercial;Monthly
+82;Money and Credit;78;Second difference of log;NONREVSL;NONREVSL Total Nonrevolving Credit;Monthly
+83;Money and Credit;79*;First difference;CONSPI;CONSPI Nonrevolving consumer credit to Personal Income;Monthly
+84;Money and Credit;131;Second difference of log;MZMSL;MZMSL MZM Money Stock;Monthly
+85;Money and Credit;132;Second difference of log;DTCOLNVHFNM;DTCOLNVHFNM Consumer Motor Vehicle Loans Outstanding;Monthly
+86;Money and Credit;133;Second difference of log;DTCTHFNM;DTCTHFNM Total Consumer Loans and Leases Outstanding;Monthly
+87;Money and Credit;134;Second difference of log;INVEST;INVEST Securities in Bank Credit at All;Monthly
+88;Interest and Exchange Rates;84;First difference;FEDFUNDS;Effective Federal Funds Rate;Monthly
+89;Interest and Exchange Rates;85*;First difference;CP3Mx;3-Month AA Financial Commercial Paper Rate CPF3M Comm paper;Monthly
+90;Interest and Exchange Rates;86;First difference;TB3MS;3-Month Treasury Bill:;Monthly
+91;Interest and Exchange Rates;87;First difference;TB6MS;6-Month Treasury Bill:;Monthly
+92;Interest and Exchange Rates;88;First difference;GS1;1-Year Treasury Rate;Monthly
+93;Interest and Exchange Rates;89;First difference;GS5;5-Year Treasury Rate;Monthly
+94;Interest and Exchange Rates;90;First difference;GS10;10-Year Treasury Rate;Monthly
+95;Interest and Exchange Rates;91;First difference;AAA;Moody’s Seasoned Aaa Corporate Bond Yield Aaa bond;Monthly
+96;Interest and Exchange Rates;92;First difference;BAA;Moody’s Seasoned Baa Corporate Bond Yield Baa bond;Monthly
+97;Interest and Exchange Rates;93*;No transformation;COMPAPFFx;3-Month Commercial Paper Minus FEDFUNDS CP-FF spread;Monthly
+98;Interest and Exchange Rates;94;No transformation;TB3SMFFM;3-Month Treasury C Minus FEDFUNDS 3 mo-FF spread;Monthly
+99;Interest and Exchange Rates;95;No transformation;TB6SMFFM;6-Month Treasury C Minus FEDFUNDS 6 mo-FF spread;Monthly
+100;Interest and Exchange Rates;96;No transformation;T1YFFM;1-Year Treasury C Minus FEDFUNDS 1 yr-FF spread;Monthly
+101;Interest and Exchange Rates;97;No transformation;T5YFFM;5-Year Treasury C Minus FEDFUNDS 5 yr-FF spread;Monthly
+102;Interest and Exchange Rates;98;No transformation;T10YFFM;10-Year Treasury C Minus FEDFUNDS 10 yr-FF spread;Monthly
+103;Interest and Exchange Rates;99;No transformation;AAAFFM;Moody’s Aaa Corporate Bond Minus FEDFUNDS Aaa-FF spread;Monthly
+104;Interest and Exchange Rates;100;No transformation;BAAFFM;Moody’s Baa Corporate Bond Minus FEDFUNDS Baa-FF spread;Monthly
+105;Interest and Exchange Rates;101;First difference of log;TWEXAFEGSMTHx;Trade Weighted U.S. Dollar Index Ex rate: avg;Monthly
+106;Interest and Exchange Rates;102*;First difference of log;EXSZUSx;Switzerland / U.S. Foreign Exchange Rate;Monthly
+107;Interest and Exchange Rates;103*;First difference of log;EXJPUSx;Japan / U.S. Foreign Exchange Rate;Monthly
+108;Interest and Exchange Rates;104*;First difference of log;EXUSUKx;U.S. / U.K. Foreign Exchange Rate;Monthly
+109;Interest and Exchange Rates;105*;First difference of log;EXCAUSx;Canada / U.S. Foreign Exchange Rate;Monthly
+110;Prices;106;Second difference of log;PPIFGS;PPI: Finished Goods;Monthly
+111;Prices;107;Second difference of log;PPIFCG;PPI: Finished Consumer Goods;Monthly
+112;Prices;108;Second difference of log;PPIITM;PPI: Intermediate Materials;Monthly
+113;Prices;109;Second difference of log;PPICRM;PPI: Crude Materials;Monthly
+114;Prices;110*;Second difference of log;OILPRICEx;Crude Oil spliced WTI and Cushing;Monthly
+115;Prices;111;Second difference of log;PPICMM;PPI: Metals and metal products: M_110157335 PPI: nonferrous;Monthly
+116;Prices;112;No transformation;NAPMPRI;ISM Manufacturing: Prices Index M_110157204 NAPM com price;Monthly
+117;Prices;113;Second difference of log;CPIAUCSL;CPI : All Items M_110157323 CPI-U: all;Monthly
+118;Prices;114;Second difference of log;CPIAPPSL;CPI : Apparel M_110157299 CPI-U: apparel;Monthly
+119;Prices;115;Second difference of log;CPITRNSL;CPI : Transportation M_110157302 CPI-U: transp;Monthly
+120;Prices;116;Second difference of log;CPIMEDSL;CPI : Medical Care M_110157304 CPI-U: medical;Monthly
+121;Prices;117;Second difference of log;CUSR0000SAC;CPI : Commodities M_110157314 CPI-U: comm.;Monthly
+122;Prices;118;Second difference of log;CUUR0000SAD;CPI : Durables M_110157315 CPI-U: dbles;Monthly
+123;Prices;119;Second difference of log;CUSR0000SAS;CPI : Services M_110157325 CPI-U: services;Monthly
+124;Prices;120;Second difference of log;CPIULFSL;CPI : All Items Less Food M_110157328 CPI-U: ex food;Monthly
+125;Prices;121;Second difference of log;CUUR0000SA0L2;CPI : All items less shelter M_110157329 CPI-U: ex shelter;Monthly
+126;Prices;122;Second difference of log;CUSR0000SA0L5;CPI : All items less medical care M_110157330 CPI-U: ex med;Monthly
+127;Prices;123;Second difference of log;PCEPI;Personal Cons. Expend.: Chain Index gmdc PCE defl;Monthly
+128;Prices;124;Second difference of log;DDURRG3M086SBEA;Personal Cons. Exp: Durable goods gmdcd PCE defl: dlbes;Monthly
+129;Prices;125;Second difference of log;DNDGRG3M086SBEA;Personal Cons. Exp: Nondurable goods gmdcn PCE defl: nondble;Monthly
+130;Prices;126;Second difference of log;DSERRG3M086SBEA;Personal Cons. Exp: Services gmdcs PCE defl: service;Monthly
+131;Stock Market;80*;First difference of log;S&P 500;S&P’s Common Stock Price Index: Composite;Monthly
+132;Stock Market;81*;First difference of log;S&P: indust;S&P’s Common Stock Price Index: Industrials;Monthly
+133;Stock Market;82*;First difference;S&P div yield;Dividend yield S&P’s Composite Common Stock: Dividend Yield S&P div yield;Monthly
+134;Stock Market;83*;First difference of log;S&P PE ratio;PE ratio S&P’s Composite Common Stock: Price-Earnings Ratio S&P PE ratio;Monthly
+135;Stock Market;135*;No transformation;VXOCLSx;VXO - S&P 100 Volatility Index;Monthly

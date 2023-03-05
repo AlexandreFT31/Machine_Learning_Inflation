@@ -1,0 +1,249 @@
+﻿Index;Group;ID;Transformation;FRED;Description;Frequency
+1;National Income and Product Accounts;1;First difference of log;GDPC1;GDP;Quarterly
+2;National Income and Product Accounts;2;First difference of log;PCECC96;Consumption;Quarterly
+3;National Income and Product Accounts;3;First difference of log;PCDGx;Cons:Dur;Quarterly
+4;National Income and Product Accounts;4;First difference of log;PCESVx;Cons:Svc;Quarterly
+5;National Income and Product Accounts;5;First difference of log;PCNDx;Cons:NonDur;Quarterly
+6;National Income and Product Accounts;6;First difference of log;GPDIC1;Investment;Quarterly
+7;National Income and Product Accounts;7;First difference of log;FPIx;FixedInv;Quarterly
+8;National Income and Product Accounts;8;First difference of log;Y033RC1Q027SBEAx;Inv:Equip&Software;Quarterly
+9;National Income and Product Accounts;9;First difference of log;PNFIx;FixInv:NonRes;Quarterly
+10;National Income and Product Accounts;10;First difference of log;PRFIx;FixedInv:Res;Quarterly
+11;National Income and Product Accounts;11;No transformation;A014RE1Q156NBEA;Inv:Inventories;Quarterly
+12;National Income and Product Accounts;12;First difference of log;GCEC1;Gov.Spending;Quarterly
+13;National Income and Product Accounts;13;No transformation;A823RL1Q225SBEA;Gov:Fed;Quarterly
+14;National Income and Product Accounts;14;First difference of log;FGRECPTx;RealGovReceipts;Quarterly
+15;National Income and Product Accounts;15;First difference of log;SLCEx;Gov:State&Local;Quarterly
+16;National Income and Product Accounts;16;First difference of log;EXPGSC1;Exports;Quarterly
+17;National Income and Product Accounts;17;First difference of log;IMPGSC1;Imports;Quarterly
+18;National Income and Product Accounts;18;First difference of log;DPIC96;Disp-Income;Quarterly
+19;National Income and Product Accounts;19;First difference of log;OUTNFB;Ouput:NFB;Quarterly
+20;National Income and Product Accounts;20;First difference of log;OUTBS;Output:Bus;Quarterly
+21;National Income and Product Accounts;21;First difference of log;OUTMS;Output:Manuf;Quarterly
+22;National Income and Product Accounts;190;First difference;B020RE1Q156NBEA;ShareGDPExport;Quarterly
+23;National Income and Product Accounts;191;First difference;B021RE1Q156NBEA;ShareGDPImport;Quarterly
+24;Output and Income;22;First difference of log;INDPRO;IP:Totalindex;Quarterly
+25;Output and Income;23;First difference of log;IPFINAL;IP:Finalproducts;Quarterly
+26;Output and Income;24;First difference of log;IPCONGD;IP:Consumergoods;Quarterly
+27;Output and Income;25;First difference of log;IPMAT;IP:Materials;Quarterly
+28;Output and Income;26;First difference of log;IPDMAT;IP:Durgdsmaterials;Quarterly
+29;Output and Income;27;First difference of log;IPNMAT;IP:Nondurgdsmaterials;Quarterly
+30;Output and Income;28;First difference of log;IPDCONGD;IP:DurCons. Goods;Quarterly
+31;Output and Income;29;First difference of log;IPB51110SQ;IP:Auto;Quarterly
+32;Output and Income;30;First difference of log;IPNCONGD;IP:NonDurConsGod;Quarterly
+33;Output and Income;31;First difference of log;IPBUSEQ;IP:BusEquip;Quarterly
+34;Output and Income;32;First difference of log;IPB51220SQ;IP:EnergyPrds;Quarterly
+35;Output and Income;33;No transformation;TCU;CapuTot;Quarterly
+36;Output and Income;34;No transformation;CUMFNS;CapuMan.;Quarterly
+37;Output and Income;194;First difference of log;IPMANSICS;IndProdManuf;Quarterly
+38;Output and Income;195;First difference of log;IPB51222S;IndProdResUtilities;Quarterly
+39;Output and Income;196;First difference of log;IPFUELS;IndProdFuels;Quarterly
+40;Labor Market;35;First difference of log;PAYEMS;Emp:Nonfarm;Quarterly
+41;Labor Market;36;First difference of log;USPRIV;Emp:Private;Quarterly
+42;Labor Market;37;First difference of log;MANEMP;Emp:mfg;Quarterly
+43;Labor Market;38;First difference of log;SRVPRD;Emp:Services;Quarterly
+44;Labor Market;39;First difference of log;USGOOD;Emp:Goods;Quarterly
+45;Labor Market;40;First difference of log;DMANEMP;Emp:DurGoods;Quarterly
+46;Labor Market;41;First difference of log;NDMANEMP;Emp:NondurGoods;Quarterly
+47;Labor Market;42;First difference of log;USCONS;Emp:Const;Quarterly
+48;Labor Market;43;First difference of log;USEHS;Emp:Edu&Health;Quarterly
+49;Labor Market;44;First difference of log;USFIRE;Emp:Finance;Quarterly
+50;Labor Market;45;First difference of log;USINFO;Emp:Infor;Quarterly
+51;Labor Market;46;First difference of log;USPBS;Emp:BusServ;Quarterly
+52;Labor Market;47;First difference of log;USLAH;Emp:Leisure;Quarterly
+53;Labor Market;48;First difference of log;USSERV;Emp:OtherSvcs;Quarterly
+54;Labor Market;49;First difference of log;USMINE;Emp:Mining/NatRes;Quarterly
+55;Labor Market;50;First difference of log;USTPU;Emp:Trade&Trans;Quarterly
+56;Labor Market;51;First difference of log;USGOVT;Emp:Gov;Quarterly
+57;Labor Market;52;First difference of log;USTRADE;Emp:Retail;Quarterly
+58;Labor Market;53;First difference of log;USWTRADE;Emp:Wholesal;Quarterly
+59;Labor Market;54;First difference of log;CES9091000001;Emp:Gov(Fed);Quarterly
+60;Labor Market;55;First difference of log;CES9092000001;Emp:Gov(State);Quarterly
+61;Labor Market;56;First difference of log;CES9093000001;Emp:Gov(Local);Quarterly
+62;Labor Market;57;First difference of log;CE16OV;Emp:Total(HHSurve);Quarterly
+63;Labor Market;58;First difference;CIVPART;LFPartRate;Quarterly
+64;Labor Market;59;First difference;UNRATE;UnempRate;Quarterly
+65;Labor Market;60;First difference;UNRATESTx;Urate_ST;Quarterly
+66;Labor Market;61;First difference;UNRATELTx;Urate_LT;Quarterly
+67;Labor Market;62;First difference;LNS14000012;Urate:Age16-19;Quarterly
+68;Labor Market;63;First difference;LNS14000025;Urate:Age>20Men;Quarterly
+69;Labor Market;64;First difference;LNS14000026;Urate:Age>20Women;Quarterly
+70;Labor Market;65;First difference of log;UEMPLT5;U:Dur<5wks;Quarterly
+71;Labor Market;66;First difference of log;UEMP5TO14;U:Dur5-14wks;Quarterly
+72;Labor Market;67;First difference of log;UEMP15T26;U:dur>15-26wks;Quarterly
+73;Labor Market;68;First difference of log;UEMP27OV;U:Dur>27wks;Quarterly
+74;Labor Market;69;First difference of log;LNS13023621;U:Joblosers;Quarterly
+75;Labor Market;70;First difference of log;LNS13023557;U:LFReenty;Quarterly
+76;Labor Market;71;First difference of log;LNS13023705;U:JobLeavers;Quarterly
+77;Labor Market;72;First difference of log;LNS13023569;U:NewEntrants;Quarterly
+78;Labor Market;73;First difference of log;LNS12032194;Emp:SlackWk;Quarterly
+79;Labor Market;74;First difference of log;HOABS;EmpHrs:BusSec;Quarterly
+80;Labor Market;75;First difference of log;HOAMS;EmpHrs:mfg;Quarterly
+81;Labor Market;76;First difference of log;HOANBS;EmpHrs:nfb;Quarterly
+82;Labor Market;77;No transformation;AWHMAN;AWHMan;Quarterly
+83;Labor Market;78;First difference;AWHNONAG;AWHPrivat;Quarterly
+84;Labor Market;79;First difference;AWOTMAN;AWHOvertime;Quarterly
+85;Labor Market;80;No transformation;HWIx;HelpWnted;Quarterly
+86;Labor Market;197;First difference;UEMPMEAN;AvgDurUnempWks;Quarterly
+87;Labor Market;198;First difference;CES0600000007;AvgWeeklyHoursProdNonsupEmpGoodsProd;Quarterly
+88;Labor Market;220;First difference;HWIURATIOx;RatioHelpWantedToUnemployed;Quarterly
+89;Labor Market;221;First difference of log;CLAIMSx;InitialClaims;Quarterly
+90;Housing;81;First difference of log;HOUST;Hstarts;Quarterly
+91;Housing;82;First difference of log;HOUST5F;Hstarts>5units;Quarterly
+92;Housing;83;First difference of log;PERMIT;Hpermits;Quarterly
+93;Housing;84;First difference of log;HOUSTMW;Hstarts:MW;Quarterly
+94;Housing;85;First difference of log;HOUSTNE;Hstarts:NE;Quarterly
+95;Housing;86;First difference of log;HOUSTS;Hstarts:S;Quarterly
+96;Housing;87;First difference of log;HOUSTW;Hstarts:W;Quarterly
+97;Housing;179;First difference of log;USSTHPI;RealHprice:OFHEO;Quarterly
+98;Housing;180;First difference of log;SPCS10RSA;RealCS_10;Quarterly
+99;Housing;181;First difference of log;SPCS20RSA;RealCS_20;Quarterly
+100;Housing;227;First difference of log;PERMITNE;BuildingPermitsNortheast;Quarterly
+101;Housing;228;First difference of log;PERMITMW;BuildingPermitsMidwest;Quarterly
+102;Housing;229;First difference of log;PERMITS;BuildingPermitsSouthCensus;Quarterly
+103;Housing;230;First difference of log;PERMITW;BuildingPermitsWestCensus;Quarterly
+104;Consumption, Orders and Inventories;88;First difference of log;CMRMTSPLx;MTSales;Quarterly
+105;Consumption, Orders and Inventories;89;First difference of log;RSAFSx;Ret. Sale;Quarterly
+106;Consumption, Orders and Inventories;90;First difference of log;AMDMNOx;Orders(DurMfg);Quarterly
+107;Consumption, Orders and Inventories;91;First difference of log;ACOGNOx;Orders(ConsGoods/Mat.);Quarterly
+108;Consumption, Orders and Inventories;92;First difference of log;AMDMUOx;UnfOrders(DurGds);Quarterly
+109;Consumption, Orders and Inventories;93;First difference of log;ANDENOx;Orders(NonDefCap);Quarterly
+110;Consumption, Orders and Inventories;94;First difference of log;INVCQRMTSPL;MTInvent;Quarterly
+111;Consumption, Orders and Inventories;222;First difference of log;BUSINVx;BusinessInventory;Quarterly
+112;Consumption, Orders and Inventories;223;First difference;ISRATIOx;InventoryToSalesRatio;Quarterly
+113;Prices;95;Second difference of log;PCECTPI;PCED;Quarterly
+114;Prices;96;Second difference of log;PCEPILFE;PCED_LFE;Quarterly
+115;Prices;97;Second difference of log;GDPCTPI;GDPDefl;Quarterly
+116;Prices;98;Second difference of log;GPDICTPI;GPDIDefl;Quarterly
+117;Prices;99;Second difference of log;IPDBS;BusSecDefl;Quarterly
+118;Prices;100;Second difference of log;DGDSRG3Q086SBEA;PCED_Goods;Quarterly
+119;Prices;101;Second difference of log;DDURRG3Q086SBEA;PCED_DurGoods;Quarterly
+120;Prices;102;Second difference of log;DSERRG3Q086SBEA;PCED_Serv;Quarterly
+121;Prices;103;Second difference of log;DNDGRG3Q086SBEA;PCED_NDurGoods;Quarterly
+122;Prices;104;Second difference of log;DHCERG3Q086SBEA;PCED_HouseholdServ.;Quarterly
+123;Prices;105;Second difference of log;DMOTRG3Q086SBEA;PCED_MotorVec;Quarterly
+124;Prices;106;Second difference of log;DFDHRG3Q086SBEA;PCED_DurHousehold;Quarterly
+125;Prices;107;Second difference of log;DREQRG3Q086SBEA;PCED_Recreation;Quarterly
+126;Prices;108;Second difference of log;DODGRG3Q086SBEA;PCED_OthDurGds;Quarterly
+127;Prices;109;Second difference of log;DFXARG3Q086SBEA;PCED_Food_Bev;Quarterly
+128;Prices;110;Second difference of log;DCLORG3Q086SBEA;PCED_Clothing;Quarterly
+129;Prices;111;Second difference of log;DGOERG3Q086SBEA;PCED_Gas_Enrgy;Quarterly
+130;Prices;112;Second difference of log;DONGRG3Q086SBEA;PCED_OthNDurGds;Quarterly
+131;Prices;113;Second difference of log;DHUTRG3Q086SBEA;PCED_Housing-Utilities;Quarterly
+132;Prices;114;Second difference of log;DHLCRG3Q086SBEA;PCED_HealthCare;Quarterly
+133;Prices;115;Second difference of log;DTRSRG3Q086SBEA;PCED_TransSvg;Quarterly
+134;Prices;116;Second difference of log;DRCARG3Q086SBEA;PCED_RecServices;Quarterly
+135;Prices;117;Second difference of log;DFSARG3Q086SBEA;PCED_FoodServ_Acc.;Quarterly
+136;Prices;118;Second difference of log;DIFSRG3Q086SBEA;PCED_FIRE;Quarterly
+137;Prices;119;Second difference of log;DOTSRG3Q086SBEA;PCED_OtherServices;Quarterly
+138;Prices;120;Second difference of log;CPIAUCSL;CPI;Quarterly
+139;Prices;121;Second difference of log;CPILFESL;CPI_LFE;Quarterly
+140;Prices;122;Second difference of log;WPSFD49207;PPI:FinGds;Quarterly
+141;Prices;123;Second difference of log;PPIACO;PPI;Quarterly
+142;Prices;124;Second difference of log;WPSFD49502;PPI:FinConsGds;Quarterly
+143;Prices;125;Second difference of log;WPSFD4111;PPI:FinConsGds(Food);Quarterly
+144;Prices;126;Second difference of log;PPIIDC;PPI:IndCom;Quarterly
+145;Prices;127;Second difference of log;WPSID61;PPI:IntMat;Quarterly
+146;Prices;128;First difference of log;WPU0531;RealPrice:NatGas;Quarterly
+147;Prices;129;First difference of log;WPU0561;RealPrice:Oil;Quarterly
+148;Prices;130;First difference of log;OILPRICEx;RealCrudeoilPrice;Quarterly
+149;Prices;205;Second difference of log;WPSID62;PPICrudeMaterials;Quarterly
+150;Prices;206;Second difference of log;PPICMM;PPICommoditiesMetals;Quarterly
+151;Prices;207;Second difference of log;CPIAPPSL;CPIAllUrbanApparel;Quarterly
+152;Prices;208;Second difference of log;CPITRNSL;CPIAllUrbanTransportation;Quarterly
+153;Prices;209;Second difference of log;CPIMEDSL;CPIALLUrbanMedicalCare;Quarterly
+154;Prices;210;Second difference of log;CUSR0000SAC;CPIAllUrbanCommodities;Quarterly
+155;Prices;211;Second difference of log;CUSR0000SAD;CPIAllUrbanDurables;Quarterly
+156;Prices;212;Second difference of log;CUSR0000SAS;CPIAllUrbanServices;Quarterly
+157;Prices;213;Second difference of log;CPIULFSL;CPIAllUrbanAllItemsLessFood;Quarterly
+158;Prices;214;Second difference of log;CUSR0000SA0L2;CPIAllUrbanAllItemsLessShelter;Quarterly
+159;Prices;215;Second difference of log;CUSR0000SA0L5;CPIAllUrbanAllItemsLessMedicalCare;Quarterly
+160;Prices;233;Second difference of log;CUSR0000SEHC;CPIAllUrbanEquivalentRent;Quarterly
+161;Earnings and Productivity;131;First difference of log;AHETPIx;RealAHE:PrivInd;Quarterly
+162;Earnings and Productivity;132;First difference of log;CES2000000008x;RealAHE:Const;Quarterly
+163;Earnings and Productivity;133;First difference of log;CES3000000008x;RealAHE:MFG;Quarterly
+164;Earnings and Productivity;134;First difference of log;COMPRMS;CPH:Mfg;Quarterly
+165;Earnings and Productivity;135;First difference of log;COMPRNFB;CPH:NFB;Quarterly
+166;Earnings and Productivity;136;First difference of log;RCPHBS;CPH:Bus;Quarterly
+167;Earnings and Productivity;137;First difference of log;OPHMFG;OPH:mfg;Quarterly
+168;Earnings and Productivity;138;First difference of log;OPHNFB;OPH:nfb;Quarterly
+169;Earnings and Productivity;139;First difference of log;OPHPBS;OPH:Bus;Quarterly
+170;Earnings and Productivity;140;First difference of log;ULCBS;ULC:Bus;Quarterly
+171;Earnings and Productivity;141;First difference of log;ULCMFG;ULC:Mfg;Quarterly
+172;Earnings and Productivity;142;First difference of log;ULCNFB;ULC:NFB;Quarterly
+173;Earnings and Productivity;143;First difference of log;UNLPNBS;UNLPay:nfb;Quarterly
+174;Earnings and Productivity;216;Second difference of log;CES0600000008;AvgHourlyEarningsProdNonSupEmpGoodsProd;Quarterly
+175;Earnings and Productivity;144;First difference;FEDFUNDS;FedFunds;Quarterly
+176;Earnings and Productivity;145;First difference;TB3MS;TB-3Mth;Quarterly
+177;Earnings and Productivity;146;First difference;TB6MS;TM-6MTH;Quarterly
+178;Earnings and Productivity;147;First difference;GS1;TB-1YR;Quarterly
+179;Earnings and Productivity;148;First difference;GS10;TB-10YR;Quarterly
+180;Earnings and Productivity;149;First difference;MORTGAGE30US;Mort-30Yr;Quarterly
+181;Earnings and Productivity;150;First difference;AAA;AAABond;Quarterly
+182;Earnings and Productivity;151;First difference;BAA;BAABond;Quarterly
+183;Earnings and Productivity;152;No transformation;BAA10YM;BAA_GS10;Quarterly
+184;Earnings and Productivity;153;No transformation;MORTG10YRx;MRTG_GS10;Quarterly
+185;Earnings and Productivity;154;No transformation;TB6M3Mx;tb6m_tb3m;Quarterly
+186;Earnings and Productivity;155;No transformation;GS1TB3Mx;GS1_tb3m;Quarterly
+187;Earnings and Productivity;156;No transformation;GS10TB3Mx;GS10_tb3m;Quarterly
+188;Earnings and Productivity;157;No transformation;CPF3MTB3Mx;CP_TbillSpread;Quarterly
+189;Earnings and Productivity;201;First difference;GS5;5YearTreasury;Quarterly
+190;Earnings and Productivity;202;No transformation;TB3SMFFM;3MTreasuryMinusFEDFunds;Quarterly
+191;Earnings and Productivity;203;No transformation;T5YFFM;5YTreasuryMinusFEDFunds;Quarterly
+192;Earnings and Productivity;204;No transformation;AAAFFM;AaaCorpMinusFEDFunds;Quarterly
+193;Earnings and Productivity;225;First difference;CP3M;3MAAFinCommercialPaper;Quarterly
+194;Earnings and Productivity;226;No transformation;COMPAPFF;3MAAFinCommercialPaperMinusFEDFunds;Quarterly
+195;Money and Credit;158;First difference of log;BOGMBASEREALx;RealMbase;Quarterly
+196;Money and Credit;159;First difference of log;IMFSLx;RealInsMMF;Quarterly
+197;Money and Credit;160;First difference of log;M1REAL;Realm1;Quarterly
+198;Money and Credit;161;First difference of log;M2REAL;Realm2;Quarterly
+199;Money and Credit;162;First difference of log;MZMREAL;Realmzm;Quarterly
+200;Money and Credit;163;First difference of log;BUSLOANSx;RealC&Lloand;Quarterly
+201;Money and Credit;164;First difference of log;CONSUMERx;RealConsLoans;Quarterly
+202;Money and Credit;165;First difference of log;NONREVSLx;RealNonRevCredit;Quarterly
+203;Money and Credit;166;First difference of log;REALLNx;RealLoansRealEst;Quarterly
+204;Money and Credit;167;First difference of log;REVOLSLx;RealRevolvCredit;Quarterly
+205;Money and Credit;168;First difference of log;TOTALSLx;RealConsuCred;Quarterly
+206;Money and Credit;169;No transformation;DRIWCIL;FRBSLO_Consumers;Quarterly
+207;Money and Credit;199;Second difference of log;TOTRESNS;TotalReservesDepInst;Quarterly
+208;Money and Credit;200;First difference of (ratio - 1);NONBORRES;NonBorrowedReserves;Quarterly
+209;Money and Credit;217;Second difference of log;DTCOLNVHFNM;ConsumerVehicleLoans;Quarterly
+210;Money and Credit;218;Second difference of log;DTCTHFNM;TotalConsumerVehicleLoans;Quarterly
+211;Money and Credit;219;Second difference of log;INVEST;SecuritiesBankCredit;Quarterly
+212;Other;188;No transformation;UMCSENTx;Cons.Expectations;Quarterly
+213;Other;189;First difference;USEPUINDXM;PolicyUncertainty;Quarterly
+214;Exchange Rates;182;First difference of log;TWEXAFEGSMTHx;Exrate:major;Quarterly
+215;Exchange Rates;183;First difference of log;EXUSEU;Exrate:Euro;Quarterly
+216;Exchange Rates;184;First difference of log;EXSZUSx;Exrate:Switz;Quarterly
+217;Exchange Rates;185;First difference of log;EXJPUSx;Exrate:Japan;Quarterly
+218;Exchange Rates;186;First difference of log;EXUSUKx;Exrate:UK;Quarterly
+219;Exchange Rates;187;First difference of log;EXCAUSx;EXrate:Canada;Quarterly
+220;Household Balance Sheets;170;First difference of log;TABSHNOx;RealHHW:TASA;Quarterly
+221;Household Balance Sheets;171;First difference of log;TLBSHNOx;RealHHW:LiabSA;Quarterly
+222;Household Balance Sheets;172;First difference of log;LIABPIx;liab_PDISA;Quarterly
+223;Household Balance Sheets;173;First difference of log;TNWBSHNOx;RealHHW:WSA;Quarterly
+224;Household Balance Sheets;174;No transformation;NWPIx;W_PDISA;Quarterly
+225;Household Balance Sheets;175;First difference of log;TARESAx;RealHHW:TA_RESA;Quarterly
+226;Household Balance Sheets;176;First difference of log;HNOREMQ027Sx;RealHHW:RESA;Quarterly
+227;Household Balance Sheets;177;First difference of log;TFAABSHNOx;RealHHW:FinSA;Quarterly
+228;Household Balance Sheets;224;First difference;CONSPIx;NonrevolvingConsumerCredit;Quarterly
+229;Stock Markets;178;No transformation;VXOCLSx;VXO;Quarterly
+230;Stock Markets;231;First difference of log;NIKKEI225;Nikkei;Quarterly
+231;Stock Markets;232;First difference of log;NASDAQCOM;Nasdaq;Quarterly
+232;Stock Markets;245;First difference of log;S&P500;SPX500;Quarterly
+233;Stock Markets;246;First difference of log;S&P:indust;SPX500Ind;Quarterly
+234;Stock Markets;247;First difference;S&P:divyield;SPX500DY;Quarterly
+235;Stock Markets;248;First difference of log;S&PPEratio;SPX500PE;Quarterly
+236;Non-Household Balance Sheets;192;First difference;GFDEGDQ188S;TotalPublicDebtToGDP;Quarterly
+237;Non-Household Balance Sheets;193;First difference;GFDEBTNx;TotalPublicDebtDeflated;Quarterly
+238;Non-Household Balance Sheets;234;First difference of log;TLBSNNCBx;RealNonfinCorpDebt;Quarterly
+239;Non-Household Balance Sheets;235;No transformation;TLBSNNCBBDIx;NonfinCorpDebtToDispBussIncome;Quarterly
+240;Non-Household Balance Sheets;236;First difference of log;TTAABSNNCBx;RealNonfinCorpAssets;Quarterly
+241;Non-Household Balance Sheets;237;First difference of log;TNWMVBSNNCBx;RealNonfinCorpBussNetWorth;Quarterly
+242;Non-Household Balance Sheets;238;First difference;TNWMVBSNNCBBDIx;RealNonfinCorpBussNetWorthToDispBussIncome;Quarterly
+243;Non-Household Balance Sheets;239;First difference of log;TLBSNNBx;RealNonfinNoncorpDebt;Quarterly
+244;Non-Household Balance Sheets;240;No transformation;TLBSNNBBDIx;NonfinNoncorpDebtToIncome;Quarterly
+245;Non-Household Balance Sheets;241;First difference of log;TABSNNBx;RealNonfinNoncorpAssets;Quarterly
+246;Non-Household Balance Sheets;242;First difference of log;TNWBSNNBx;RealNonfinNoncorpNetWorth;Quarterly
+247;Non-Household Balance Sheets;243;First difference;TNWBSNNBBDIx;RealNonfinNoncorpNetWorthToDispIncome;Quarterly
+248;Non-Household Balance Sheets;244;First difference of log;CNCFx;RealDispBussinessIncome;Quarterly
