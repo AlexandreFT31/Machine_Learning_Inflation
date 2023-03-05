@@ -11,22 +11,35 @@ In both notebooks, in the beginning of the code, the user can find string variab
 In the Inflation_Data notebook, the directories and file names are the following:
 
 str_Dir_Plan_FRED --> folder where the FRED data is located
+
 str_Dir_Plan_Data --> folder where the consolidated data (original FRED variables and their lags paired by the dates) are located
+
 str_Dir_Plan_PC --> folder where the principal components and encoded variables should be found, already split in train, validation, and test samples (output from the other notebook)
+
 str_Nome_Plan_FRED_MD --> name of the spreadsheet containing the monthly FRED data
+
 str_Nome_Plan_FRED_QD --> name of the spreadsheet containing the quarterly FRED data
+
 str_Nome_Plan_FRED_MD_Desc --> name of the spreadsheet containing the data description (monthly time series)
+
 str_Nome_Plan_FRED_QD_Desc --> name of the spreadsheet containing the data description (quarterly time series)
 
 In the Inflation_Forecasting notebook, the directories and file names are the following:
 
 str_Dir_Plan_FRED --> folder where the FRED data is located
+
 str_Dir_Plan_Data --> folder where the consolidated data (original FRED variables and their lags paired by the dates) are located
+
 str_Dir_Plan_PC --> folder where the principal components and encoded variables should be found, already split in train, validation, and test samples (output from the other notebook)
+
 str_Dir_Results --> folder where the results are going to be stored
+
 str_Nome_Plan_FRED_MD --> name of the spreadsheet containing the monthly FRED data
+
 str_Nome_Plan_FRED_QD --> name of the spreadsheet containing the quarterly FRED data
+
 str_Nome_Plan_FRED_MD_Desc --> name of the spreadsheet containing the data description (monthly time series)
+
 str_Nome_Plan_FRED_QD_Desc --> name of the spreadsheet containing the data description (quarterly time series)
 
 --- R Functions
