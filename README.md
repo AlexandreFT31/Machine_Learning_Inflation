@@ -80,7 +80,7 @@ This notebook contains routines for data preparation, normalization, and denoisi
 
 1) Read the macroeconomic time series provided by FRED and compiled by Michael W. McCracken;
 2) The time series are transformed according to the suggestions proposed by McCracken and Ng (2016). These transformations involve computing log values and differencing, for instance;
-3) In the sequence, time series are normalized, split in different samples (training and testing), and attributed to different variables;
+3) In the sequence, time series are normalized, split in different samples (training and testing), and attributed to different variables. The splitting process is implemented using k-fold CV together with MC to generate multiple samples and improve the out-of-sample performance analysis. We use different seeds (see the loop in the "Training and Test Samples" part of the code) to generate these samples. Inside each sample, date ordering and the lags are preserved because lags of each variable are added as inputs (that is, together with variable x(t), we also have variables x(t-1), x(t-2), etc.). This decision facilitates the implementation of block MC and avoids breaking the autocorrelation of the series. Validation samples from the training samples are created in the notebook "Inflation_Forecasting";
 4) After preparing the data, we run PCA and derive principal components. In parallel, using the original transformed data, we also encode the variables using autoenconders and VAEs. Note that these techniques are used for variables grouped according to their nature (employment, income, etc.), which is more appropriate than applying the techniques just once for the entire database and mixing variables of different natures;
 5) The outputs of the PCA, autoencoders, and VAEs are separated and saved in individual .csv files, which are used in the next notebook.
 
@@ -93,4 +93,3 @@ This notebook presents the code to implement the deep learning models and severa
 3) Adjust the model to the data;
 5) Evaluate the out-of-sample performance of each model using common metrics, such as MSE;
 6) Save the results in .csv files.
-
